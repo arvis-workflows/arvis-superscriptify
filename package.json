@@ -1,0 +1,31 @@
+{
+  "name": "arvis-superscriptify",
+  "version": "0.0.3",
+  "description": "Converts the provided text to superscript and copies it to the clipboard.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+  },
+  "keywords": [
+    "arvis",
+    "arvish",
+    "arvis-workflow"
+  ],
+  "files": [
+    "arvis-workflow.json",
+    "index.js",
+    "icon.png"
+  ],
+  "author": {
+    "name": "Henry Desroches",
+    "email": "yo@henry.codes",
+    "url": "https://henry.codes"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "arvish": ">=0.5.7",
+    "superscript-text": "^1.0.0"
+  }
+}

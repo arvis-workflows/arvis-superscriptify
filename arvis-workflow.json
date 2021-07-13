@@ -1,0 +1,30 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jopemachine/arvis-extension-validator/master/workflow-schema.json",
+  "defaultIcon": "icon.png",
+  "category": "Tools",
+  "creator": "Henry Desroches",
+  "description": "Converts text to superscript",
+  "name": "arvis-superscriptify",
+  "readme": "",
+  "version": "0.0.3",
+  "webAddress": "https://github.com/arvis-workflows/arvis-superscriptify",
+  "enabled": true,
+  "commands": [
+    {
+      "type": "scriptFilter",
+      "title": "Superscript",
+      "runningSubtext": "Converting your text to superscript...",
+      "command": "ss",
+      "scriptFilter": "node index.js {query}",
+      "argType": "optional",
+      "withspace": true,
+      "actions": [
+        {
+          "type": "clipboard",
+          "modifiers": "normal",
+          "text": "{query}"
+        }
+      ]
+    }
+  ]
+}
