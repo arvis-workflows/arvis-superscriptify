@@ -1,4 +1,4 @@
-# <img src="./icon.png" width="50" height="50"/> arvis-superscript
+# <img src="./icon.png" width="50" height="50"/> arvis-superscriptify
 
 An arvis workflow for converting text to superscript.
 
@@ -7,7 +7,7 @@ An arvis workflow for converting text to superscript.
 ### Installation
 
 ```sh
-npm i -g arvis-superscript
+npm i -g arvis-superscriptify
 ```
 
 ### Usage
@@ -22,8 +22,7 @@ This project is licensed under the ISC License. See [LICENSE.md](LICENSE.md) for
 
 ## 💫 Acknowledgements
 
-- This project uses [Sindre Sorhus](https://github.com/sindresorhus)' amazing tool [arvish](https://github.com/sindresorhus/arvish).
-- This project also uses [superscript-text](https://www.npmjs.com/package/superscript-text).
+- This project uses [superscript-text](https://www.npmjs.com/package/superscript-text).
 - [Seah](http://www.seahcb.com/) helped come up with the icon. She's the best.
 
 ## 🔗 This workflow is converted from [alfred-workflow](https://github.com/xdesro/alfred-superscript).
